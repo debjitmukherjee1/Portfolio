@@ -2,6 +2,8 @@
 <html lang="en" class="theme-light">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; require-trusted-types-for 'script'; trusted-types default dompurify; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PREVIEW — Debjit Mukherjee (Light theme)</title>
   <meta name="description" content="Light-theme preview.">
@@ -72,7 +74,9 @@
       padding: 0.3rem 0.7rem;
     }
   </style>
-</head>
+<script src="js/vendor/purify.min.js?v=3.5.0"></script>
+  <script src="js/security.js?v=1"></script>
+  </head>
 <body>
   <span class="preview-flag">Preview · light theme — not published</span>
 
